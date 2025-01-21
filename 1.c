@@ -11,7 +11,7 @@ int main(void)
     while ((c = fgetc(f)) != EOF)
     {
      //   printf("%c, %x\n", c, c);
-        if (c != ' ' && c != '\n')
+        if (c != '\n')
         {
             sum++;
             text1[i] = c;
